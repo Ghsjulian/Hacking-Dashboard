@@ -26,8 +26,8 @@ browser.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv
   #browser.set_handle_robots(False)
 browser.open('https://free.facebook.com/login.php')
 browser.select_form(nr=0)
-browser.form['email'] = "01302661227"
-browser.form['pass'] = "ghs_smith:"
+browser.form['email'] = ""
+browser.form['pass'] = ""
 submit = browser.submit()
 time.sleep(0.5)
 browser.select_form(nr=0)
